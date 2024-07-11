@@ -1,6 +1,7 @@
 :root {
   --primary-color: #47618c;
   --light-gray: #f1f3f4;
+  --dark-gray: #5e5e5e;
   --white: #ffffff;
   --orange: #eea236;
   --green: #5db85b;
@@ -23,4 +24,15 @@ nav {
   background-color: #47618c;
   padding: 5px;
   gap: 15px;
+}
+
+header {
+  background-color: var(--light-gray);
+  color: var(--dark-gray);
+  display: flex;
+}
+
+form div {
+  color: var(--dark-gray);
+  align-items: end;
 }
