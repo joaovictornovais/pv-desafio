@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #47618c;
+  --light-gray: #f1f3f4;
+  --white: #ffffff;
+  --orange: #eea236;
+  --green: #5db85b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-img {
+  filter: grayscale(100%) invert(1) brightness(160%);
+  width: 230px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #47618c;
+  padding: 5px;
+  gap: 15px;
+}
