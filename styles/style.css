@@ -7,6 +7,14 @@
   --green: #5db85b;
 }
 
+body {
+  background-color: var(--dark-gray);
+}
+
+main {
+  background-color: var(--white);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,4 +43,9 @@ header {
 form div {
   color: var(--dark-gray);
   align-items: end;
+}
+
+.table-container {
+  padding-top: 15px;
+  padding-bottom: 30px;
 }

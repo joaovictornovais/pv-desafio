@@ -24,7 +24,7 @@
       <header class="pt-2 px-4">
         <h1 class="h4 fw-normal">Gestão de Vendas</h1>
       </header>
-      <form class="px-4 pt-2">
+      <form class="px-4 pt-2 pb-2">
         <div class="row gap-2">
           <div class="form-group col">
             <label for="acao">Ação</label>
@@ -60,6 +60,32 @@
           </div>
         </div>
       </form>
+      <div class="px-4 table-container">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Ação</th>
+              <th scope="col">Data prevista</th>
+              <th scope="col">Investimento previsto</th>
+              <th scope="col" class="text-center">Editar</th>
+              <th scope="col" class="text-center">Excluir</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Palestra</td>
+              <td>17/07/2024</td>
+              <td>R$ 100,00</td>
+              <td class="text-center">
+                <i class="bi bi-pencil-fill text-primary"></i>
+              </td>
+              <td class="text-center">
+                <i class="bi bi-x-lg text-danger"></i>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </main>
 
     <script
